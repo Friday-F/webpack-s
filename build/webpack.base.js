@@ -77,7 +77,7 @@ module.exports = (env) =>{
                             },
                         }
                         
-                    ],
+                    ].filter(Boolean)
 
                 },
                 {
